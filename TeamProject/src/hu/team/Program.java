@@ -6,7 +6,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 public class Program {
-
 	public static void main(String[] args) {
 		Resource resource = new ClassPathResource("applicationContext.xml");
 		BeanFactory factory = new XmlBeanFactory(resource);
@@ -14,8 +13,9 @@ public class Program {
 		One one=(One)factory.getBean("onebean");
 		one.displayInfo();
 		
+		System.out.println();
+		
 		Two two=(Two)factory.getBean("twobean");
 		two.displayInfo();
 	}
-
 }

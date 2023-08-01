@@ -7,10 +7,10 @@
     	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
   
 <bean id="onebean" class="hu.team.One">
-<property name="name" value="One-the-One"></property>
+<property name="name" value="10"></property>
 </bean>  
 <bean id="twobean" class="hu.team.Two">
-<property name="name" value="69"></property>
+<property name="name" value="25"></property>
 </bean>
    
 </beans>
