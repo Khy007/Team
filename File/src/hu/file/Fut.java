@@ -16,5 +16,4 @@ public class Fut {
         Megjelenit megjelenit = (Megjelenit) factory.getBean("megjelenit");
         megjelenit.visszafeleKiir();
 	}
-
 }
